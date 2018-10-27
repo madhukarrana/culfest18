@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:elevation="4dp"
+    android:padding="5dp"
+
+        >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv4"
+        android:textSize="15dp"
+        android:text="99089797363"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+
+        />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#eeb96b"
+
+        />
+
+
+
+
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="horizontal"
+
+        >
+
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/iv1"
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_weight="0.4"
+            android:elevation="5dp"
+            app:civ_border_width="3.5dp"
+            app:civ_border_color="#f46d3e"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="0.6"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv1"
+                android:textSize="17dp"
+                android:textColor="#000"
+                android:text="Shubham Kumar"
+                android:layout_marginTop="18dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv2"
+                android:textSize="13dp"
+                android:textColor="#000"
+                android:text="skshubham@gmail.com"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv3"
+                android:textSize="15dp"
+                android:text="99089797363"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                />
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

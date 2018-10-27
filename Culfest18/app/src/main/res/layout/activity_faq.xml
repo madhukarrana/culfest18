@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_faq"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3d3d3"
+    tools:context="jamshedpur.nit.culfest.com.culfest17.Activity.FAQActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/faq_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:titleTextColor="@color/white"
+        android:elevation="0dp" >
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.ListViewCompat
+        android:id="@+id/my_list_view"
+        android:layout_below="@id/faq_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:dividerHeight="0sp">
+    </android.support.v7.widget.ListViewCompat>
+
+
+</RelativeLayout>

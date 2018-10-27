@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c64910</color>
+    <color name="colorPrimaryDark">#842c03</color>
+    <color name="colorAccent">#842c03</color>
+
+    <color name="saffron">#F4B63E</color>
+    <color name="sienna">#EB6460</color>
+    <color name="green">#10b4a5</color>
+    <color name="purple">#7c57e4</color>
+    <color name="pink">#ff4284</color>
+    <color name="orange">#ff8c6a</color>
+    <color name="white">#fff</color>
+    <color name="content_text">#616161</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="grey">#424242</color>
+    <color name="dot_dark">#fce4ec</color>
+    <color name="color_primary_text">#00ffff</color>
+    <color name="color_secondary_text">#ffffff</color>
+    <color name="dot_light">#e91e63</color>
+
+
+    <color name="blue">#303F9F</color>
+    <color name="green_teal">#009688</color>
+    <color name="red">#F44336</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="lime">#CDDC39</color>
+
+    <color name="accent_color">@color/blue</color>
+    <color name="statusBarColor">@color/blue</color>
+    <color name="navigationBarColor">@android:color/black</color>
+    <color name="drawerArrowColor">@android:color/white</color>
+    <array name="array_dot_active">
+        <item>@color/dot_light</item>
+        <item>@color/dot_light</item>
+        <item>@color/dot_light</item>
+        <item>@color/dot_light</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark</item>
+        <item>@color/dot_dark</item>
+        <item>@color/dot_dark</item>
+        <item>@color/dot_dark</item>
+    </array>
+</resources>

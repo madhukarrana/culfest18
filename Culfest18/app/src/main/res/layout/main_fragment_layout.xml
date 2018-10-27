@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="11"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:id="@+id/homePager">
+
+            <android.support.v4.view.ViewPager
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:id="@+id/viewPager"
+                android:layout_below="@id/toolbar">
+
+            </android.support.v4.view.ViewPager>
+
+            <include layout="@layout/appbar"/>
+
+            <LinearLayout
+                android:id="@+id/indiCatorLayout"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal"
+                >
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:layout_below="@id/homePager"
+            android:id="@+id/homeWriteUp"
+            android:layout_margin="10dp">
+
+            <include
+                layout="@layout/home_page_writeup"
+                />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

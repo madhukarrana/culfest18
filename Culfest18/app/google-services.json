@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "619436532504",
+    "firebase_url": "https://culfest18-d9533.firebaseio.com",
+    "project_id": "culfest18-d9533",
+    "storage_bucket": "culfest18-d9533.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619436532504:android:cbefa5c34bb6e62e",
+        "android_client_info": {
+          "package_name": "jamshedpur.nit.culfest.com.culfest17"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619436532504-pvbj68to5isl01shfbefmsctbeluqdr1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jamshedpur.nit.culfest.com.culfest17",
+            "certificate_hash": "a382937b452b57d113b3365d11ad44fa92967a7c"
+          }
+        },
+        {
+          "client_id": "619436532504-9t7nmr0476prtcism2la1bumm722tpcb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_sHAeOE0nPBvQhFoMYe1AwvG-miFiJP8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619436532504-9t7nmr0476prtcism2la1bumm722tpcb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
